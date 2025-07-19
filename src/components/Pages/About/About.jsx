@@ -10,8 +10,8 @@ export default function About() {
         bgColor={"bg-white"}
       />
       <div className="container my-5">
-        <div className="row g-4 text-white">
-          <div className="col-6">
+        <div className="row g-2 text-white">
+          <div className="col-md-6">
             <p>
               Freelancer is a free bootstrap theme created by Route. The
               download includes the complete source files including HTML, CSS,
@@ -19,7 +19,7 @@ export default function About() {
               customization.
             </p>
           </div>
-          <div className="col-6">
+          <div className="col-md-6">
             <p>
               Freelancer is a free bootstrap theme created by Route. The
               download includes the complete source files including HTML, CSS,

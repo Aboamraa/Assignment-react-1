@@ -22,19 +22,19 @@ export default function Footer() {
               <div className="d-flex gap-2">
                 <FontAwesomeIcon
                   icon={faFacebook}
-                  className="border border-1 rounded-circle border-white p-2"
+                  className="social-icon border border-1 rounded-circle border-white p-2"
                 />
                 <FontAwesomeIcon
                   icon={faTwitter}
-                  className="border border-1 rounded-circle border-white p-2"
+                  className="social-icon border border-1 rounded-circle border-white p-2"
                 />
                 <FontAwesomeIcon
                   icon={faLinkedinIn}
-                  className="border border-1 rounded-circle border-white p-2"
+                  className="social-icon border border-1 rounded-circle border-white p-2"
                 />
                 <FontAwesomeIcon
                   icon={faGlobe}
-                  className="border border-1 rounded-circle border-white p-2"
+                  className="social-icon border border-1 rounded-circle border-white p-2"
                 />
               </div>
             </div>

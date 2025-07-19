@@ -29,6 +29,10 @@
   border-radius: 10px !important;
 }
 
+.navbar-nav .nav-item {
+  width: fit-content;
+  /* padding: 14px; */
+}
 /* Navbar end */
 
 /* Page Title start */
@@ -58,10 +62,7 @@
 
 .wrapper {
   background-color: rgba(26, 188, 156, 0);
-  /* top: 0;
-  bottom: 0px;
-  left: 0;
-  right: 0; */
+
   inset: 0;
   transition: 0.5s;
   transform: translate(0, 20px);
@@ -88,6 +89,19 @@ input[type="submit"] {
   background-color: var(--bg-primary);
   border-color: var(--bg-primary);
 }
+
+/* Footer start*/
+.social-icon {
+  transition: 0.4s;
+  color: white;
+  background-color: transparent;
+}
+.social-icon:hover {
+  color: var(--bg-secondary-darker);
+  background-color: white;
+}
+
+/* Footer end */
 /* Product end */
 /* :root {
 

@@ -28,7 +28,7 @@ export default function Navbar() {
             <ul class="navbar-nav ms-auto gap-4">
               <li class="nav-item">
                 <NavLink
-                  className="nav-link text-white fs-5 fw-semibold"
+                  className="nav-link text-white fs-5 fw-semibold px-1"
                   to={"/about"}
                 >
                   About
@@ -36,7 +36,7 @@ export default function Navbar() {
               </li>
               <li class="nav-item">
                 <NavLink
-                  className="nav-link text-white fs-5 fw-semibold"
+                  className="nav-link text-white fs-5 fw-semibold px-1"
                   to={"/portfolio"}
                 >
                   Portfolio
@@ -44,7 +44,7 @@ export default function Navbar() {
               </li>
               <li class="nav-item">
                 <NavLink
-                  className="nav-link text-white fs-5 fw-semibold"
+                  className="nav-link text-white fs-5 fw-semibold px-1"
                   to={"/contact"}
                 >
                   Contact
